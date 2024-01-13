@@ -5,12 +5,12 @@ homepage: http://theflutterninja.me/
 repository: https://github.com/flutterninja9/unique_names_generator
 
 environment:
-  sdk: '>=2.16.2 <3.0.0'
+  sdk: '>=2.16.2 <3.16.0'
 
 
 # dependencies:
 #   path: ^1.8.0
 
 dev_dependencies:
-  lints: ^1.0.0
+  lints: ^3.0.0
   test: ^1.16.0
