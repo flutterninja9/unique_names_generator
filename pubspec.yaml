@@ -1,6 +1,6 @@
 name: unique_names_generator
 description: Unique name generator package for generating random and unique names.
-version: 2.1.0
+version: 2.0.0
 homepage: https://www.anirudhsingh.in/
 repository: https://github.com/flutterninja9/unique_names_generator
 
