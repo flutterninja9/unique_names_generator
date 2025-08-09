@@ -27,7 +27,7 @@ class UniqueNamesGenerator {
       );
     }
 
-    final _generatedList = [];
+    final generatedList = [];
     for (int i = 0; i < config.length; i++) {
       final wordList = config.dictionaries[i];
       String word = wordList[Random().nextInt(wordList.length)];
@@ -45,9 +45,9 @@ class UniqueNamesGenerator {
           word = word.toUpperCase();
           break;
       }
-      _generatedList.add(word);
+      generatedList.add(word);
     }
 
-    return _generatedList.join(config.seperator);
+    return generatedList.join(config.separator);
   }
 }

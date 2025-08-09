@@ -6,13 +6,13 @@ class Config {
   /// number of words generated
   /// defaults to 3
   final int length;
-  final String seperator;
+  final String separator;
   final List<List<String>> dictionaries;
   final Style style;
 
   Config({
     this.length = 3,
-    this.seperator = '_',
+    this.separator = '_',
     this.style = Style.lowerCase,
     required this.dictionaries,
   });

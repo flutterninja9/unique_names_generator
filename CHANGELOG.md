@@ -1,3 +1,7 @@
+## 2.0.0
+- Updated dart min supported version
+- Fix typo as reported in [this](https://github.com/flutterninja9/unique_names_generator/issues/1)
+
 ## 1.1.0
 
 - Enhanced support for newer apps
