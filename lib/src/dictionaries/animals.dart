@@ -37,7 +37,6 @@ const animals = [
   'bobcat',
   'bobolink',
   'bonobo',
-  'booby',
   'bovid',
   'bug',
   'butterfly',
