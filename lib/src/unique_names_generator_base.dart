@@ -27,10 +27,12 @@ class UniqueNamesGenerator {
       );
     }
 
+    final random = Random(randomSeed);
+
     final generatedList = [];
     for (int i = 0; i < config.length; i++) {
       final wordList = config.dictionaries[i];
-      String word = wordList[Random(randomSeed).nextInt(wordList.length)];
+      String word = wordList[random.nextInt(wordList.length)];
 
       switch (config.style) {
         case Style.lowerCase:
