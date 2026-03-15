@@ -8,7 +8,7 @@ class UniqueNamesGenerator {
 
   UniqueNamesGenerator({required this.config});
 
-  String generate() {
+  String generate({int? randomSeed}) {
     if (config.dictionaries.isEmpty) {
       throw UniqueNamesGeneratorException(
         'Please provide a dictionary\nPossible values could be adjectives, animals, colors, countries, languages, names, starWars',
@@ -27,10 +27,12 @@ class UniqueNamesGenerator {
       );
     }
 
+    final random = Random(randomSeed);
+
     final generatedList = [];
     for (int i = 0; i < config.length; i++) {
       final wordList = config.dictionaries[i];
-      String word = wordList[Random().nextInt(wordList.length)];
+      String word = wordList[random.nextInt(wordList.length)];
 
       switch (config.style) {
         case Style.lowerCase:
