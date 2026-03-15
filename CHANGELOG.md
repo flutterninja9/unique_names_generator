@@ -1,7 +1,10 @@
-## 3.0.1
+## 3.1.2
 
 - Allow specifying random seed
 - Update dependencies
+
+## 3.1.1
+- Add missing export for star wars [check](https://github.com/flutterninja9/unique_names_generator/issues/3)
 
 ## 3.0.0
 - Remove problematic name [check](https://github.com/flutterninja9/unique_names_generator/pull/2)
