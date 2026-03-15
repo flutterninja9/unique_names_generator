@@ -1,3 +1,8 @@
+## 3.0.1
+
+- Allow specifying random seed
+- Update dependencies
+
 ## 3.0.0
 - Remove problematic name [check](https://github.com/flutterninja9/unique_names_generator/pull/2)
 
